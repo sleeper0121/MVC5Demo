@@ -33,5 +33,11 @@ namespace MVC5Demo2021_1.Controllers
 
             return View();
         }
+
+        public ActionResult Test2()
+        {
+
+            return View();
+        }
     }
 }
