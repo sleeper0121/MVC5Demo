@@ -30,5 +30,7 @@ namespace MVC5Demo2021_1.Models
         public virtual DbSet<Enrollment> Enrollment { get; set; }
         public virtual DbSet<OfficeAssignment> OfficeAssignment { get; set; }
         public virtual DbSet<Person> Person { get; set; }
+
+        public System.Data.Entity.DbSet<MVC5Demo2021_1.Models.PersonModel> PersonModels { get; set; }
     }
 }
